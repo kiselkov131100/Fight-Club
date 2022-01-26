@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    user-select: none;
+}
+
+.section {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.sectionWrapper {
+    width: 90%;
+    height: 600px;
+    max-width: 1115px;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid black;
+}
+
+.firstFighter, .secondFighter {
+    width: 500px;  
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insideFighter {
+    width: 300px;
+}
+
+.head {
+	width: 100px;
+	height: 100px;
+	background: black;
+	border-radius: 50px;
+    margin-left: 100px;
+}
+
+.body {
+    width: 120px;
+	height: 160px;
+    background-color: black;
+    margin-left: 90px;
+
+}
+
+.legs {
+    display: flex; 
+    margin-left: 90px;
+}
+
+.lleg, .rleg {
+    width: 40px;
+	height: 100px;
+	background: black;
+}
+
+.rleg {
+    margin-left: 40px;
+}
+
+.hands {
+    display: flex;  
+    position: absolute;
+}
+
+.lhand, .rhand {
+    width: 90px;
+	height: 40px;
+	background: black; 
+}
+
+.rhand {
+    margin-left: 120px;  
+}
+
+ .container {
+    display: flex;
+    justify-content: center;
+}
+
+.field {
+    width: 800px;
+    height: 600px;
+    border: 3px solid black;
+
+}
+
+.fieldWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 50px;
+}
+
+p {
+    font-size: 30px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin: 30px;
+}
+
+.selectedRed {
+    border: 5px solid red;
+}
+
+.selectedGreen {
+    border: 5px solid green;
+}
+
+img {
+    pointer-events: none;
+}
